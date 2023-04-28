@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>
+    ateşte pişenler, ateşte, pişen, bbq, kaburga, dry aged, 
+    steak, pastırma, sucuk, sosis,ckuru et, 
+    kokoreç, antalya.
+</title>
+<link rel="icon" type="image/x-icon" href="media\favicon-32x32.png">
+<link rel="stylesheet" href="kadikoy.css">
+<script src="kadikoy.js"></script>
+<meta charset="UTF-8">
+<meta name="keywords" content="ateşte pişenler, ateşe, bbq,chicken,pastırma">
+<meta name="discription" content="ateşte pişenler, ateşte, bbq,chicken,pastırma">
+<meta name="author" content="DESIGN BY YZKN">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">ana sayfa</a></li>
+        <li><a href="magaza.html">mağaza</a></li>
+        <li><a href="iletisim.html">iletişim</a></li>
+        <li><a href="kadikoy.html" class="active">kadıköy</a></li>
+        <li><a href="yardim.html">yardım</a></li>
+        <li><a href="oturumac.html">oturum aç</a></li>
+    </ul>
+</div>
+
+<br><br>
+<div class="d1" id="do1">
+    <p id="po1"><button onclick="document.getElementById('po1').innerHTML = tarih;">TARİHİ GÖR</button></p>
+    
+    <script>
+        const d = new Date();
+        const aylar = ["OCAK", "ŞUBAT", "MART", "NİSAN", "MAYIS", 
+        "HAZİRAN", "TEMMUZ", "AĞUSTOS", "EYLÜL", "EKİM", "KASIM", "ARALIK"];
+        const gunler = ["PAZAR", "PAZARTESİ", "SALI", "ÇARŞAMBA", "PERŞEMBE", "CUMA", "CUMARTESİ"];
+        const tarih ="BUGÜN : " + d.getDate() +
+         " " + aylar[d.getMonth()] + " " + d.getFullYear() + "<BR>" + gunler[d.getDay()] + "<br>" +
+        "SAAT : " + d.getHours() + ":" + d.getMinutes();
+
+    </script>
+</div>
+
+
+
+</body>
+</html>
